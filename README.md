@@ -1,7 +1,7 @@
-# Oculus Quest Firmware Grabber
+# Quest Firmware Grabber
 
 An implementation Oculus' firmware update services from the Oculus Quest 2 in nodejs.
-Features were reverse engineered using the official packages.
+Features were reverse engineered from the official packages.
 
 It is currently able to fetch Enterprise firmware from `graph.oculus.com`.
 In order to fetch consumer firmwares, a device certificate is required, which can only be obtained using root access. The key and cert in [./data](./data) were generated to test if the server would allow unknown certificates. It did not work, however, I have not thoroughly tested it.
