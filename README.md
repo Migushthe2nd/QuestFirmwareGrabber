@@ -1,5 +1,7 @@
 # Quest Firmware Grabber
 
+[DEVELOPMENT HALTED UNTIL ROOT ACCESS IS ACQUIRED]
+
 An implementation Oculus' firmware update services from the Oculus Quest 2 in nodejs.
 Features were reverse engineered from the official packages.
 
